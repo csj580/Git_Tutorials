@@ -1,0 +1,134 @@
+body{
+    background-image: url('img/blue-archive.jpg');        
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+}
+header.header__inner {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+}
+.nav li {
+    padding: 0px 10px;
+    
+}
+.nav li a {
+    color: black;
+}
+.container{
+    margin: 0;
+}
+
+.footer{   
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.main > *{
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.main-contents > * {
+    padding: 10px 0px;
+}
+.main-contents {
+    padding: 10px;
+}
+.btn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    
+    display: inline-flex;
+    border-radius: 10px;
+    transition: all 0.1s;
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+.btn.blue {
+    background-color: #1f75d9;
+    border-bottom: 5px solid #165195;
+}
+
+.btn.blue:active {
+    border-bottom: 2px solid #165195;
+}
+
+.btn.red {
+    background-color: #ff521e;
+    border-bottom: 5px solid #c1370e;
+}
+
+.btn.red:active {
+    border-bottom: 2px solid #c1370e;
+}
+.nav-item h1{
+    font-size: 10px;
+    cursor: pointer;
+    padding : 7px;
+}
+.active h1{
+    color : blue;
+    background-color: skyblue;
+}
+.container{
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    padding: 0px 10px;
+}
+
+.thumbnail {
+    background-color: white;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.thumbnail.round {
+    border-radius: 10%;
+}
+
+.thumbnail.circle {
+    border-radius: 100%;
+}
+.table {
+    display: none;
+}
+.cont {
+    display: none;
+}
+.active {
+    display: block;
+}
+#school {
+    padding : 10px;
+}
+.page-content{ 
+    width : 100px;
+    padding: 10px;
+    list-style: none;
+}
+#carouselExampleIndicators{
+    width: 100%;
+}
+.navi {
+    border: 1px bold black;
+    
+}
+
+.advertisement > *{
+    padding: 10px;
+}
+.sub-content > *{
+    padding: 10px;
+}
